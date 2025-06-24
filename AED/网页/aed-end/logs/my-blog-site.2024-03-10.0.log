@@ -1,0 +1,86 @@
+2024-03-10 12:21:42.928  INFO 12948 --- [           main] com.aed.aedend.AedEndApplication         : Starting AedEndApplication using Java 17 on LAPTOP-DBFHBQSF with PID 12948 (D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end\target\classes started by 王蓉 in D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end)
+2024-03-10 12:21:42.931  INFO 12948 --- [           main] com.aed.aedend.AedEndApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-03-10 12:21:43.962  WARN 12948 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.aed.aed-web.mapper]' package. Please check your configuration.
+2024-03-10 12:21:44.555  INFO 12948 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10000 (http)
+2024-03-10 12:21:44.565  INFO 12948 --- [           main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-10000"]
+2024-03-10 12:21:44.566  INFO 12948 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10 12:21:44.566  INFO 12948 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2024-03-10 12:21:44.976  INFO 12948 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10 12:21:44.976  INFO 12948 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1987 ms
+2024-03-10 12:21:45.116  INFO 12948 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-03-10 12:21:45.247  INFO 12948 --- [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-03-10 12:21:45.508  WARN 12948 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.DeviceMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-03-10 12:21:45.550  WARN 12948 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.UserMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-03-10 12:21:46.494  INFO 12948 --- [           main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-10000"]
+2024-03-10 12:21:46.524  INFO 12948 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 10000 (http) with context path ''
+2024-03-10 12:21:46.788  INFO 12948 --- [           main] com.aed.aedend.AedEndApplication         : Started AedEndApplication in 4.467 seconds (JVM running for 6.253)
+2024-03-10 12:56:27.527  INFO 12948 --- [http-nio-10000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10 12:56:27.528  INFO 12948 --- [http-nio-10000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-10 12:56:27.530  INFO 12948 --- [http-nio-10000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-10 12:57:24.423  WARN 12948 --- [http-nio-10000-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /device/10002
+2024-03-10 12:57:24.871  WARN 12948 --- [http-nio-10000-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-03-10 12:58:33.882  WARN 12948 --- [http-nio-10000-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2024-03-10 12:58:41.835  WARN 12948 --- [http-nio-10000-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /device/getById
+2024-03-10 12:59:48.363  WARN 12948 --- [http-nio-10000-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /device/findById
+2024-03-10 13:00:10.168  WARN 12948 --- [http-nio-10000-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /device/findById
+2024-03-10 13:01:40.316  WARN 12948 --- [http-nio-10000-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /device/find
+2024-03-10 13:17:24.276  INFO 7896 --- [           main] com.aed.aedend.AedEndApplicationTests    : Starting AedEndApplicationTests using Java 17 on LAPTOP-DBFHBQSF with PID 7896 (started by 王蓉 in D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end)
+2024-03-10 13:17:24.279  INFO 7896 --- [           main] com.aed.aedend.AedEndApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-03-10 13:17:25.785  WARN 7896 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.aed.aed-web.mapper]' package. Please check your configuration.
+2024-03-10 13:17:26.298  INFO 7896 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-03-10 13:17:26.621  INFO 7896 --- [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-03-10 13:17:27.019  WARN 7896 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.DeviceMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-03-10 13:17:27.087  WARN 7896 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.UserMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-03-10 13:17:30.935  INFO 7896 --- [           main] com.aed.aedend.AedEndApplicationTests    : Started AedEndApplicationTests in 7.329 seconds (JVM running for 8.665)
+2024-03-10 13:17:31.613  INFO 7896 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-03-10 13:17:31.615  INFO 7896 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-03-10 13:32:11.871  INFO 13488 --- [           main] com.aed.aedend.AedEndApplicationTests    : Starting AedEndApplicationTests using Java 17 on LAPTOP-DBFHBQSF with PID 13488 (started by 王蓉 in D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end)
+2024-03-10 13:32:11.874  INFO 13488 --- [           main] com.aed.aedend.AedEndApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-03-10 13:32:13.428  WARN 13488 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.aed.aed-web.mapper]' package. Please check your configuration.
+2024-03-10 13:32:13.987  INFO 13488 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-03-10 13:32:14.298  INFO 13488 --- [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-03-10 13:32:14.708  WARN 13488 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.DeviceMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-03-10 13:32:14.793  WARN 13488 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.UserMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-03-10 13:32:18.565  INFO 13488 --- [           main] com.aed.aedend.AedEndApplicationTests    : Started AedEndApplicationTests in 7.271 seconds (JVM running for 8.532)
+2024-03-10 13:32:19.143  INFO 13488 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-03-10 13:32:19.146  INFO 13488 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-03-10 13:43:20.876  INFO 12948 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-03-10 13:43:20.900  INFO 12948 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-03-10 13:43:32.127  INFO 27936 --- [           main] com.aed.aedend.AedEndApplication         : Starting AedEndApplication using Java 17 on LAPTOP-DBFHBQSF with PID 27936 (D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end\target\classes started by 王蓉 in D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end)
+2024-03-10 13:43:32.130  INFO 27936 --- [           main] com.aed.aedend.AedEndApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-03-10 13:43:33.119  WARN 27936 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.aed.aed-web.mapper]' package. Please check your configuration.
+2024-03-10 13:43:33.625  INFO 27936 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10000 (http)
+2024-03-10 13:43:33.642  INFO 27936 --- [           main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-10000"]
+2024-03-10 13:43:33.642  INFO 27936 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10 13:43:33.642  INFO 27936 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2024-03-10 13:43:33.845  INFO 27936 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10 13:43:33.845  INFO 27936 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1668 ms
+2024-03-10 13:43:33.987  INFO 27936 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-03-10 13:43:34.132  INFO 27936 --- [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-03-10 13:43:34.301  WARN 27936 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.DeviceMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-03-10 13:43:34.339  WARN 27936 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.UserMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-03-10 13:43:35.160  INFO 27936 --- [           main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-10000"]
+2024-03-10 13:43:35.187  INFO 27936 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 10000 (http) with context path ''
+2024-03-10 13:43:35.465  INFO 27936 --- [           main] com.aed.aedend.AedEndApplication         : Started AedEndApplication in 3.822 seconds (JVM running for 5.204)
+2024-03-10 13:44:04.755  INFO 28548 --- [           main] com.aed.aedend.AedEndApplicationTests    : Starting AedEndApplicationTests using Java 1.8.0_341 on LAPTOP-DBFHBQSF with PID 28548 (started by 王蓉 in D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end)
+2024-03-10 13:44:04.758  INFO 28548 --- [           main] com.aed.aedend.AedEndApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-03-10 13:44:05.874  WARN 28548 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.aed.aed-web.mapper]' package. Please check your configuration.
+2024-03-10 13:44:06.328  INFO 28548 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-03-10 13:44:06.543  INFO 28548 --- [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-03-10 13:44:06.782  WARN 28548 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.DeviceMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-03-10 13:44:06.826  WARN 28548 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.UserMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-03-10 13:44:09.384  INFO 28548 --- [           main] com.aed.aedend.AedEndApplicationTests    : Started AedEndApplicationTests in 5.108 seconds (JVM running for 6.337)
+2024-03-10 13:44:11.432  INFO 28548 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-03-10 13:44:11.433  INFO 28548 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-03-10 14:00:16.738  INFO 23112 --- [           main] com.aed.aedend.AedEndApplicationTests    : Starting AedEndApplicationTests using Java 1.8.0_341 on LAPTOP-DBFHBQSF with PID 23112 (started by 王蓉 in D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end)
+2024-03-10 14:00:16.740  INFO 23112 --- [           main] com.aed.aedend.AedEndApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-03-10 14:00:17.873  WARN 23112 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.aed.aed-web.mapper]' package. Please check your configuration.
+2024-03-10 14:00:18.293  INFO 23112 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-03-10 14:00:18.554  INFO 23112 --- [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-03-10 14:00:18.771  WARN 23112 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.DeviceMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-03-10 14:00:18.813  WARN 23112 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.UserMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-03-10 14:00:21.449  INFO 23112 --- [           main] com.aed.aedend.AedEndApplicationTests    : Started AedEndApplicationTests in 5.147 seconds (JVM running for 6.245)
+2024-03-10 14:00:21.846  INFO 23112 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-03-10 14:00:21.847  INFO 23112 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-03-10 21:18:24.429  INFO 27936 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-03-10 21:18:24.442  INFO 27936 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

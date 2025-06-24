@@ -1,0 +1,6 @@
+<view class="title"></view>
+  <view class="page">
+  <button bindtap="map" class="map">导航</button>
+	<button bindtap="open" class="open">开锁</button>
+	<button bindtap="close" class="close">关锁</button>
+  </view>

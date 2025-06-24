@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aed.aedend.mapper.DeviceMapper">
+    <insert id="insertOrUpdate">
+        insert into project (
+            id,
+            device_id,
+            identity_get,
+            picture,
+            manager_name,
+            lon,
+            lat,
+            pitch,
+            roll,
+            yaw,
+            power_test,
+            count_test,
+            warning,
+            open_test,
+            lux
+        )
+        values(
+                  #{item.id},
+                  #{item.deviceId},
+                  #{item.identityGet},
+                  #{item.picture},
+                  #{item.managerName},
+                  #{item.lon},
+                  #{item.lat},
+                  #{item.pitch},
+                  #{item.roll},
+                  #{item.yaw},
+                  #{item.powerTest},
+                  #{item.countTest},
+                  #{item.warning},
+                  #{item.openTest},
+                  #{item.lux}
+              )
+            ON DUPLICATE KEY UPDATE
+                                         device_id = VALUES(device_id),
+                                         identity_get = VALUES(identity_get),
+                                         picture = VALUES(picture),
+                                         manager_name = VALUES(manager_name),
+                                         lon = VALUES(lon),
+                                         lat = VALUES(lat),
+                                         pitch = VALUES(pitch),
+                                         roll = VALUES(roll),
+                                         yaw = VALUES(yaw),
+                                         power_test = VALUES(power_test),
+                                         count_test = VALUES(count_test),
+                                         warning = VALUES(warning),
+                                         open_test = VALUES(open_test),
+                                         lux = VALUES(lux);
+        </insert>
+
+    <delete id="delete">
+        delete project
+        where id in
+        <foreach collection="ids" item="id" index="index" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+    </delete>
+
+    <select id="searchAllPowerTest" resultType="com.aed.aedend.entity.Device">
+        select p.device_Id AS deviceId,
+               p.power_test AS powerTest
+        from project p
+            limit 50
+    </select>
+    <select id="findAll" resultType="com.aed.aedend.entity.Device">
+        select id,
+               device_id,
+               identity_get,
+               picture,
+               manager_name,
+               lon,
+               lat,
+               pitch,
+               roll,
+               yaw,
+               power_test,
+               count_test,
+               warning,
+               open_test,
+               lux,
+               usetime
+        from project
+    </select>
+    <select id="findByDeviceId" resultType="com.aed.aedend.entity.Device">
+        select id,
+               device_id,
+               identity_get,
+               picture,
+               manager_name,
+               lon,
+               lat,
+               pitch,
+               roll,
+               yaw,
+               power_test,
+               count_test,
+               warning,
+               open_test,
+               lux,
+               usetime
+        from project
+        where device_id = #{id}
+    </select>
+    <select id="findByPowerTest" resultType="com.aed.aedend.entity.Device">
+        select id,
+               device_id,
+               identity_get,
+               picture,
+               manager_name,
+               lon,
+               lat,
+               pitch,
+               roll,
+               yaw,
+               power_test,
+               count_test,
+               warning,
+               open_test,
+               lux,
+               usetime
+        from project
+        where power_test = #{powerTest}
+    </select>
+</mapper>

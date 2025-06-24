@@ -1,0 +1,42 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 50MB
+  mvc:
+    path match:
+      matching-strategy: ant_path_matcher
+  datasource:
+    druid:
+      stat-view-servlet:
+        allow: ''
+        deny: ''
+        enabled: true
+        login-password: druid
+        login-username: druid
+        url-pattern: /druid/*
+    url: jdbc:mysql://124.223.201.77:3306/aed?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: Jit666666!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    default-property-inclusion: non_null
+    deserialization:
+      fail-on-unknown-properties: false
+  main:
+    allow-circular-references: true
+logging:
+  config: classpath:logback-spring.xml
+  level:
+    com.aed.com.aed.aed-start.dao: trace
+server:
+  port: 10000
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+#图片上传路径
+uploadImagePath: /home/aed/pic
+#nginx代理路径
+uploadImageMapping: /home/aed/pic

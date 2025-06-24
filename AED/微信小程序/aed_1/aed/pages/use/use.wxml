@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="view_use">怎么使用AED？</view>
+  <text>
+    AED（自动体外除颤器）是用于在心脏骤停时提供电击治疗的紧急医疗设备。使用AED的基本步骤：
+	</text>
+	<image class="image_use" src="../image/use.jpg"></image>
+	<view wx:for="{{list}}" wx:for-item="item" wx:for-index="index">
+	<text>{{index + 1}}. {{item}}</text>
+	</view>
+</view>

@@ -1,0 +1,196 @@
+2024-04-02 14:12:55.902  INFO 744 --- [           main] com.aed.aedend.AedEndApplication         : Starting AedEndApplication using Java 17 on LAPTOP-DBFHBQSF with PID 744 (D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end\target\classes started by 王蓉 in D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end)
+2024-04-02 14:12:55.906  INFO 744 --- [           main] com.aed.aedend.AedEndApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-02 14:12:57.323  WARN 744 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'deviceMapper' and 'com.aed.aedend.mapper.DeviceMapper' mapperInterface. Bean already defined with the same name!
+2024-04-02 14:12:57.323  WARN 744 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.aed.aedend.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2024-04-02 14:12:57.324  WARN 744 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.aed.aedend.mapper]' package. Please check your configuration.
+2024-04-02 14:12:58.000  INFO 744 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10000 (http)
+2024-04-02 14:12:58.014  INFO 744 --- [           main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-10000"]
+2024-04-02 14:12:58.015  INFO 744 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-02 14:12:58.016  INFO 744 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2024-04-02 14:12:58.261  INFO 744 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-02 14:12:58.261  INFO 744 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2288 ms
+2024-04-02 14:12:58.450  INFO 744 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-04-02 14:12:58.608  INFO 744 --- [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-04-02 14:12:58.829  WARN 744 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.DeviceMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-04-02 14:12:58.874  WARN 744 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.UserMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-04-02 14:12:59.818  INFO 744 --- [           main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-10000"]
+2024-04-02 14:12:59.846  INFO 744 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 10000 (http) with context path ''
+2024-04-02 14:13:00.196  INFO 744 --- [           main] com.aed.aedend.AedEndApplication         : Started AedEndApplication in 4.994 seconds (JVM running for 6.74)
+2024-04-02 14:13:51.099  INFO 744 --- [http-nio-10000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 14:13:51.100  INFO 744 --- [http-nio-10000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-02 14:13:51.101  INFO 744 --- [http-nio-10000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-02 14:19:22.009  INFO 25832 --- [           main] com.aed.aedend.AedEndApplicationTests    : Starting AedEndApplicationTests using Java 1.8.0_341 on LAPTOP-DBFHBQSF with PID 25832 (started by 王蓉 in D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end)
+2024-04-02 14:19:22.012  INFO 25832 --- [           main] com.aed.aedend.AedEndApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-04-02 14:19:23.335  WARN 25832 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'deviceMapper' and 'com.aed.aedend.mapper.DeviceMapper' mapperInterface. Bean already defined with the same name!
+2024-04-02 14:19:23.336  WARN 25832 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.aed.aedend.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2024-04-02 14:19:23.336  WARN 25832 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.aed.aedend.mapper]' package. Please check your configuration.
+2024-04-02 14:19:23.853  INFO 25832 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-04-02 14:19:24.190  INFO 25832 --- [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-04-02 14:19:24.586  WARN 25832 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.DeviceMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-04-02 14:19:24.640  WARN 25832 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.UserMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-04-02 14:19:27.546  INFO 25832 --- [           main] com.aed.aedend.AedEndApplicationTests    : Started AedEndApplicationTests in 6.109 seconds (JVM running for 7.62)
+2024-04-02 14:19:27.996  INFO 25832 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-04-02 14:19:27.998  INFO 25832 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-04-02 14:24:07.579  INFO 16672 --- [           main] com.aed.aedend.AedEndApplicationTests    : Starting AedEndApplicationTests using Java 1.8.0_341 on LAPTOP-DBFHBQSF with PID 16672 (started by 王蓉 in D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end)
+2024-04-02 14:24:07.581  INFO 16672 --- [           main] com.aed.aedend.AedEndApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-04-02 14:24:09.083  WARN 16672 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'deviceMapper' and 'com.aed.aedend.mapper.DeviceMapper' mapperInterface. Bean already defined with the same name!
+2024-04-02 14:24:09.083  WARN 16672 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.aed.aedend.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2024-04-02 14:24:09.084  WARN 16672 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.aed.aedend.mapper]' package. Please check your configuration.
+2024-04-02 14:24:09.777  INFO 16672 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-04-02 14:24:10.286  INFO 16672 --- [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-04-02 14:24:10.995  WARN 16672 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.DeviceMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-04-02 14:24:11.065  WARN 16672 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.UserMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-04-02 14:24:14.326  INFO 16672 --- [           main] com.aed.aedend.AedEndApplicationTests    : Started AedEndApplicationTests in 7.415 seconds (JVM running for 8.923)
+2024-04-02 14:24:14.776  INFO 16672 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-04-02 14:24:14.778  INFO 16672 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-04-02 14:44:55.901 ERROR 744 --- [http-nio-10000-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'is_deleted' in 'field list'
+### The error may exist in com/aed/aedend/mapper/DeviceMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,device_id,identity_get,lon,lat,pitch,roll,yaw,power_test,count_test,open_test,warning,lux,picture,manager_name,usetime,is_deleted FROM project WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'is_deleted' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'is_deleted' in 'field list'] with root cause
+
+java.sql.SQLSyntaxErrorException: Unknown column 'is_deleted' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:483)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at jdk.internal.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy100.query(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:333)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:81)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:59)
+	at jdk.proxy2/jdk.proxy2.$Proxy99.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at jdk.proxy2/jdk.proxy2.$Proxy82.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:89)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy2/jdk.proxy2.$Proxy83.selectById(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.getById(IService.java:289)
+	at com.baomidou.mybatisplus.extension.service.IService$$FastClassBySpringCGLIB$$f8525d18.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.aed.aedend.service.impl.DeviceServiceImpl$$EnhancerBySpringCGLIB$$10d90f85.getById(<generated>)
+	at com.aed.aedend.controller.DeviceController.findOne(DeviceController.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForServlet.doFilter(SaPathCheckFilterForServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:142)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:82)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024-04-02 14:45:37.331  INFO 744 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-04-02 14:45:37.350  INFO 744 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-04-02 14:45:46.265  INFO 1860 --- [           main] com.aed.aedend.AedEndApplication         : Starting AedEndApplication using Java 17 on LAPTOP-DBFHBQSF with PID 1860 (D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end\target\classes started by 王蓉 in D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end)
+2024-04-02 14:45:46.268  INFO 1860 --- [           main] com.aed.aedend.AedEndApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-04-02 14:45:47.174  WARN 1860 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'deviceMapper' and 'com.aed.aedend.mapper.DeviceMapper' mapperInterface. Bean already defined with the same name!
+2024-04-02 14:45:47.174  WARN 1860 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.aed.aedend.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2024-04-02 14:45:47.175  WARN 1860 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.aed.aedend.mapper]' package. Please check your configuration.
+2024-04-02 14:45:47.580  INFO 1860 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10000 (http)
+2024-04-02 14:45:47.589  INFO 1860 --- [           main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-10000"]
+2024-04-02 14:45:47.590  INFO 1860 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-02 14:45:47.590  INFO 1860 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2024-04-02 14:45:47.765  INFO 1860 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-02 14:45:47.765  INFO 1860 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1446 ms
+2024-04-02 14:45:47.920  INFO 1860 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-04-02 14:45:48.059  INFO 1860 --- [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-04-02 14:45:48.255  WARN 1860 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.DeviceMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-04-02 14:45:48.295  WARN 1860 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.UserMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-04-02 14:45:48.990  INFO 1860 --- [           main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-10000"]
+2024-04-02 14:45:49.016  INFO 1860 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 10000 (http) with context path ''
+2024-04-02 14:45:49.301  INFO 1860 --- [           main] com.aed.aedend.AedEndApplication         : Started AedEndApplication in 3.47 seconds (JVM running for 4.452)
+2024-04-02 14:45:52.718  INFO 1860 --- [http-nio-10000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 14:45:52.718  INFO 1860 --- [http-nio-10000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-02 14:45:52.719  INFO 1860 --- [http-nio-10000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-02 14:48:34.762  INFO 27324 --- [           main] com.aed.aedend.AedEndApplicationTests    : Starting AedEndApplicationTests using Java 1.8.0_341 on LAPTOP-DBFHBQSF with PID 27324 (started by 王蓉 in D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end)
+2024-04-02 14:48:34.764  INFO 27324 --- [           main] com.aed.aedend.AedEndApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-04-02 14:48:35.970  WARN 27324 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'deviceMapper' and 'com.aed.aedend.mapper.DeviceMapper' mapperInterface. Bean already defined with the same name!
+2024-04-02 14:48:35.970  WARN 27324 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.aed.aedend.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2024-04-02 14:48:35.970  WARN 27324 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.aed.aedend.mapper]' package. Please check your configuration.
+2024-04-02 14:48:36.420  INFO 27324 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-04-02 14:48:36.761  INFO 27324 --- [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-04-02 14:48:37.107  WARN 27324 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.DeviceMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-04-02 14:48:37.150  WARN 27324 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.UserMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-04-02 14:48:39.799  INFO 27324 --- [           main] com.aed.aedend.AedEndApplicationTests    : Started AedEndApplicationTests in 5.513 seconds (JVM running for 6.701)
+2024-04-02 14:48:40.082  INFO 27324 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-04-02 14:48:40.084  INFO 27324 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-04-02 17:25:10.445  INFO 1860 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-04-02 17:25:10.449  INFO 1860 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

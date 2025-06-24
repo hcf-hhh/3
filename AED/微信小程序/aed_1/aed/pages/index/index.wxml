@@ -1,0 +1,12 @@
+<view>
+<navigator url="../what/what">
+<image class="image1" src="../image/1.jpg"></image>
+</navigator>
+<navigator url="../use/use">
+<image class="image2" src="../image/2.jpg"></image>
+</navigator>
+<navigator url="../cpr/cpr">
+<image class="image2" src="../image/3.jpg"></image>
+</navigator>
+</view>
+  

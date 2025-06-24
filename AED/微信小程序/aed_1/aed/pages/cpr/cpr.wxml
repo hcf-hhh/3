@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="view_cpr">什么是心脏复苏术？</view>
+  <text>
+		心脏复苏术是一种常见的急救技术，用于抢救心脏骤停等紧急情况下的患者。心脏骤停是指心脏突然停止跳动，这会导致身体无法提供足够的氧气到大脑和其他重要器官，很快会导致生命威胁。在CPR过程中，人们通常会采取以下步骤：
+	</text>
+	<image class="image_cpr" src="../image/cpr.jpg"></image>
+	<view wx:for="{{list}}" wx:for-item="item" wx:for-index="index">
+	<text>{{index + 1}}. {{item}}</text>
+	</view>
+	<text>
+		CPR的及时施行可以在心脏骤停时为患者争取宝贵的时间，提高生存率和避免永久性损伤。然而，务必在专业人员指导下进行CPR，以确保正确的操作和最佳的救治效果。
+	</text>
+</view>

@@ -1,0 +1,5 @@
+{
+		"usingComponents": {
+			"route-plan": "plugin://routePlan/route-plan"
+		}
+}

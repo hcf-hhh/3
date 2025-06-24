@@ -1,0 +1,19 @@
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.title{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 28px;
+}
+.page{
+  margin-top: 130px;
+}
+.map{
+  margin-bottom: 10px;
+}
+.close{
+	margin-top: 10px;
+}

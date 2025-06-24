@@ -1,0 +1,12 @@
+.aed_text {
+	text-indent: 2em;
+	user-select: auto; 
+}
+.view_what {
+	font-size: 20px;
+	margin-top: -80px;
+}
+.image_what {
+	width: 100%;
+	height: 200px;
+}

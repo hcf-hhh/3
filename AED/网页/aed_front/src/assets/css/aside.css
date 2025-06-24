@@ -1,0 +1,27 @@
+.data-manage {
+    font-size: 20px;
+}
+
+.data-address {
+    font-size: 20px;
+}
+
+.data-managerOpen {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.data-open {
+    font-size: 20px;
+}
+
+.aside_logo {
+    margin-top: 50px;
+    width: 285px;
+    /*width: 300px;*/
+}
+
+.el-icon-manage, .el-icon-map {
+    width: 200px;
+    margin-top: 20px;
+}

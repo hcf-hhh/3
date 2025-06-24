@@ -1,0 +1,23 @@
+2024-03-29 09:47:25.760  INFO 18076 --- [           main] com.aed.aedend.AedEndApplication         : Starting AedEndApplication using Java 17 on LAPTOP-DBFHBQSF with PID 18076 (D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end\target\classes started by 王蓉 in D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end)
+2024-03-29 09:47:25.762  INFO 18076 --- [           main] com.aed.aedend.AedEndApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-03-29 09:47:27.052  WARN 18076 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'deviceMapper' and 'com.aed.aedend.mapper.DeviceMapper' mapperInterface. Bean already defined with the same name!
+2024-03-29 09:47:27.053  WARN 18076 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.aed.aedend.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2024-03-29 09:47:27.054  WARN 18076 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.aed.aedend.mapper]' package. Please check your configuration.
+2024-03-29 09:47:27.506  INFO 18076 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10000 (http)
+2024-03-29 09:47:27.518  INFO 18076 --- [           main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-10000"]
+2024-03-29 09:47:27.519  INFO 18076 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-29 09:47:27.519  INFO 18076 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2024-03-29 09:47:27.808  INFO 18076 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-29 09:47:27.808  INFO 18076 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1993 ms
+2024-03-29 09:47:28.105  INFO 18076 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-03-29 09:47:28.262  INFO 18076 --- [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-03-29 09:47:28.501  WARN 18076 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.DeviceMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-03-29 09:47:28.543  WARN 18076 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.UserMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-03-29 09:47:29.592  INFO 18076 --- [           main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-10000"]
+2024-03-29 09:47:29.694  INFO 18076 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 10000 (http) with context path ''
+2024-03-29 09:47:30.627  INFO 18076 --- [           main] com.aed.aedend.AedEndApplication         : Started AedEndApplication in 5.504 seconds (JVM running for 7.173)
+2024-03-29 09:47:37.600  INFO 18076 --- [http-nio-10000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-29 09:47:37.600  INFO 18076 --- [http-nio-10000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-29 09:47:37.601  INFO 18076 --- [http-nio-10000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-29 11:50:43.801  INFO 18076 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-03-29 11:50:43.810  INFO 18076 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

@@ -1,0 +1,12 @@
+2024-03-17 10:45:35.651  INFO 3344 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-03-17 10:45:35.652  INFO 3344 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-03-17 10:45:39.060  INFO 16944 --- [           main] com.aed.aedend.AedEndApplicationTests    : Starting AedEndApplicationTests using Java 1.8.0_341 on LAPTOP-DBFHBQSF with PID 16944 (started by 王蓉 in D:\JavaLearn\schoolProject\02 项目\project\AED\aed-end)
+2024-03-17 10:45:39.062  INFO 16944 --- [           main] com.aed.aedend.AedEndApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-03-17 10:45:40.272  WARN 16944 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.aed.aed-web.mapper]' package. Please check your configuration.
+2024-03-17 10:45:40.746  INFO 16944 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-03-17 10:45:40.964  INFO 16944 --- [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-03-17 10:45:41.195  WARN 16944 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.DeviceMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-03-17 10:45:41.236  WARN 16944 --- [           main] c.b.m.core.injector.methods.Delete       : [com.aed.aedend.mapper.UserMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2024-03-17 10:45:45.414  INFO 16944 --- [           main] com.aed.aedend.AedEndApplicationTests    : Started AedEndApplicationTests in 6.801 seconds (JVM running for 8.474)
+2024-03-17 10:45:45.688  INFO 16944 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-03-17 10:45:45.689  INFO 16944 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
